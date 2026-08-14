@@ -25,7 +25,7 @@ def user_input_features():
   platform_usage_Instagram = st.number_input('Uso de instagram: 1=si 0=no', min_value=0, max_value=1, value = 0, step = 1)
   platform_usage_TikTok = st.number_input('Uso de TikTok: 1=si 0=no', min_value=0, max_value=1, value = 0, step = 1)
   social_interaction_level_low = st.number_input('Nivel de interacción social bajo: 1=si 0=no', min_value=0, max_value=1, value = 0, step = 1)
-  social_interaction_level_medium = st.number_input('Nivel de interaccion social medio: 1=si 0=no'min_value=0, max_value=1, value = 0, step = 1)
+  social_interaction_level_medium = st.number_input('Nivel de interaccion social medio: 1=si 0=no',min_value=0, max_value=1, value = 0, step = 1)
 
 
   user_input_data = {'age':age,
